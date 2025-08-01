@@ -27,3 +27,5 @@ class TestExample:
 
     def test(self, driver):
         assert driver.find_element(By.XPATH, "//button[text()='Вход и регистрация']").is_displayed()
+
+    #комментарий
